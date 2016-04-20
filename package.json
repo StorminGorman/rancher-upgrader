@@ -1,0 +1,28 @@
+{
+  "name": "rancher-upgrader",
+  "version": "0.0.1",
+  "description": "Upgrades a Rancher service",
+  "main": "lib/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StorminGorman/rancher-upgrader.git"
+  },
+  "keywords": [
+    "rancher"
+  ],
+  "author": "Brian Gorman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StorminGorman/rancher-upgrader/issues"
+  },
+  "homepage": "https://github.com/StorminGorman/rancher-upgrader#readme",
+  "dependencies": {
+    "socket.io": "^1.4.5"
+  }
+}
